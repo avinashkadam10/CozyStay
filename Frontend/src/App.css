@@ -1,0 +1,37 @@
+* {
+  font-family: "Jost", sans-serif;
+}
+
+/* Navbar.css */
+.Navbar {
+  position: absolute;   /* makes it overlay on top of hero */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background: transparent; /* optional if you want see-through */
+}
+
+.Navbar .navbar-brand img {
+  height: 50px;
+}
+.nav-link{
+  color: white;
+}
+/* HeroSection.css */
+.hero-content {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40%; /* moves content vertically */
+  transform: translateY(-50%); /* perfectly center */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
